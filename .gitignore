@@ -179,6 +179,10 @@ ex03/system.xml
 ex03/traj.dcd
 ex03/topology.pdb
 
+# ex04
+ex04/approved_drugs_buggy.sdf
+ex04/approved_drugs_fixed.sdf
+ex04/approved_drugs.sdf
 
 # ideas
 ideas/
