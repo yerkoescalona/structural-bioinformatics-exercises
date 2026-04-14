@@ -5,6 +5,10 @@ repos:
       - id: ruff
         args: [--fix]
       - id: ruff-format
+  - repo: https://github.com/astral-sh/ty
+    rev: v0.0.1
+    hooks:
+      - id: ty
   - repo: https://github.com/kynan/nbstripout
     rev: 0.8.1
     hooks:

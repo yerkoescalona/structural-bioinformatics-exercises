@@ -1,56 +1,56 @@
-[tool.poetry]
+[project]
 name = "structural-bioinformatics"
 version = "0.1.0"
 description = "Teaching materials for the course: Structural Bioinformatics"
-authors = ["Yerko Escalona <35448591+yerkoescalona@users.noreply.github.com>"]
 readme = "README.md"
-license = "CC BY-NC-SA 4.0"
-package-mode = false
+license = { text = "CC BY-NC-SA 4.0" }
+authors = [
+    { name = "Yerko Escalona", email = "35448591+yerkoescalona@users.noreply.github.com" },
+]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "biopandas==0.4.1",
+    "ipykernel>=6.29.5",
+    "jupyter==1.1.1",
+    "matplotlib==3.10.0",
+    "MDAnalysis>=2.10.0",
+    "nglview==4.0",
+    "numpy==2.0.2",
+    "openmm==8.2.0",
+    "pandas==2.2.2",
+    "py3dmol==2.4.0",
+    "pypdb==2.4",
+    "rdkit==2024.3.5",
+    "scipy==1.16.1",
+    "tqdm==4.66.6",
+    "tensorflow>=2.20.0",
+    "jax>=0.5.3",
+    "dm-tree>=0.1.8",
+    "biopython>=1.84",
+    "dm-haiku>=0.0.13",
+    "absl-py>=2.1.0",
+    "jmp>=0.0.4",
+    "ml-collections>=0.1.1",
+    "tabulate>=0.9.0",
+    "six>=1.16.0",
+    "plotly==5.24.1",
+    "mdtraj>=1.11.0",
+]
 
-[tool.poetry.dependencies]
-python = "~3.12"
-biopandas = "0.4.1"
-ipykernel = "^6.29.5"
-jupyter = "1.1.1"
-matplotlib = "3.10.0"
-MDAnalysis = "^2.10.0"
-nglview = "4.0"
-numpy = "2.0.2"
-OpenMM = "8.2.0"
-pandas = "2.2.2"
-py3dmol = "2.4.0"
-pypdb = "2.4"
-rdkit = "2024.3.5"
-scipy = "1.16.1"
-tqdm = "4.66.6"
-tensorflow = "^2.20.0"
-jax = "^0.5.3"
-dm-tree = "^0.1.8"
-biopython = "^1.84"
-dm-haiku = "^0.0.13"
-absl-py = "^2.1.0"
-jmp = "^0.0.4"
-ml-collections = "^0.1.1"
-tabulate = "^0.9.0"
-six = "^1.16.0"
-plotly = "5.24.1"
-mdtraj = "^1.11.0"
+[dependency-groups]
+dev = [
+    "ruff>=0.14.1",
+    "ty>=0.0.1",
+    "pytest>=8.4.2",
+    "pre-commit>=4.3.0",
+    "nbstripout>=0.8.1",
+    "commitizen>=3.29.0",
+]
 
-[tool.poetry.group.dev.dependencies]
-ruff = "^0.14.1"
-pytest = "^8.4.2"
-pre-commit = "^4.3.0"
-poetry-plugin-export = "^1.9.0"
-nbstripout = "^0.8.1"
-commitizen = "^3.29.0"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.uv]
+package = false
 
 [tool.commitizen]
 name = "cz_conventional_commits"
 version = "0.1.0"
 tag_format = "v$version"
-
