@@ -21,34 +21,44 @@ Google colab is a free service that allows you to run jupyter notebooks in the c
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex04/ex04.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 04: Protein Docking |
 
 
-### Conda
+### Local setup with uv
 
-You are free to use the files
+For Linux, Mac, or Windows (via WSL). Requires Python 3.12.
 
-For Linux, Mac or Windows (via WSL).
-
-1. **Create a new environment with conda:**
+1. **Install uv** (if you don't have it):
 
     ```bash
-    conda env create -f environment.yml
+    curl -LsSf https://astral.sh/uv/install.sh | sh
     ```
 
-    This will create an environment called `structbioinfo`.
-
-2. **Activate the environment:**
+2. **Create the environment and install dependencies:**
 
     ```bash
-    conda activate structbioinfo
+    uv sync --group dev
     ```
 
-3. **Update the environment for upcoming modifications:**
+    This creates a `.venv` in the project root and installs all dependencies.
+
+3. **Activate the environment:**
 
     ```bash
-    conda activate structbioinfo
-    conda env update --file environment.yml --prune
+    source .venv/bin/activate
     ```
 
-4. In VSCode, select the interpreter to the one you just created.
+4. **Update dependencies after changes to `pyproject.toml`:**
+
+    ```bash
+    uv sync --group dev
+    ```
+
+5. In VSCode, select the interpreter at `.venv/bin/python`.
+
+### Conda (alternative)
+
+```bash
+conda env create -f environment.yml
+conda activate structbioinfo
+```
 
 
 ## Protein-Ligand Complexes for Study
