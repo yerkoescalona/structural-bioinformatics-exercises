@@ -1,3 +1,11 @@
+# Instructor-only planning/context docs (ICM scaffolding) — spoilers for the
+# Frontier hints, guardrail design, and per-exercise "planned changes"/"candidate
+# additions". Students clone this repo directly; these must never be committed.
+/.claude/
+/CONTEXT.md
+/PLAN.md
+/ex*/CONTEXT.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
