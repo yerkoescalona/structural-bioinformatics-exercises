@@ -1,0 +1,54 @@
+======================================================================
+1FSZ — real downloaded PDB, parsed with Biopython
+======================================================================
+
+Chains present: ['A']
+
+HETATM residue composition (raw counts by resname):
+resname
+HOH    116
+GDP      1
+
+Non-water HETATM entries (the real cofactor(s)):
+chain resname  resseq hetflag
+    A     GDP     999   H_GDP
+
+----------------------------------------------------------------------
+Modeled residue ranges per chain (standard amino acids only)
+----------------------------------------------------------------------
+
+Chain A:
+  Modeled span in file: 23-356 (334 residues actually present)
+  Full nominal span:    23-356 (334 positions)
+  Unmodeled positions within that span: 0
+  Gap ranges: []
+
+----------------------------------------------------------------------
+SEQRES (construct) length vs. ATOM-modeled length, from the raw file
+----------------------------------------------------------------------
+  SEQRES chain A: 372 residues in the construct
+
+----------------------------------------------------------------------
+Terminal (N-/C-term) unmodeled residues: SEQRES construct vs ATOM span
+----------------------------------------------------------------------
+  Chain A: construct = 372 res (SEQRES); modeled = 23-356 (334 res)
+    N-terminal residues never modeled: 1-22 (22 res)
+    C-terminal residues never modeled: 357-372 (16 res)
+    TOTAL unmodeled residues (termini only, no internal gaps found): 38
+
+----------------------------------------------------------------------
+Mean B-factor per chain, and per crude N-/C-terminal split
+----------------------------------------------------------------------
+
+Mean B-factor per chain (all atoms):
+            mean        std  count
+chain                             
+A      53.326821  19.758863   2479
+
+Chain A — crude midpoint split at residue 190:
+  N-terminal half (23-189): mean B-factor = 40.67
+  C-terminal half (190-356): mean B-factor = 63.84
+
+Saved: 1FSZ_hetatm_residues.csv, 1FSZ_per_residue_bfactor.csv in /tmp/wea
+
+Chain A modeled sequence length (Biopython PPBuilder): 334

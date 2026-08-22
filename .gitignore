@@ -4,6 +4,7 @@
 /.claude/
 /CONTEXT.md
 /PLAN.md
+/PLAN-*.md
 /ex*/CONTEXT.md
 
 # Byte-compiled / optimized / DLL files
