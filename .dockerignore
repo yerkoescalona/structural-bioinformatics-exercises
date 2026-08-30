@@ -1,0 +1,8 @@
+.venv/
+.git/
+ex02/params/
+ex02/af_backprop/
+ex02/*.tar
+**/__pycache__/
+.pytest_cache/
+.docker-out/

@@ -3,7 +3,7 @@ name = "structural-bioinformatics"
 version = "0.1.0"
 description = "Teaching materials for the course: Structural Bioinformatics"
 authors = [{ name = "Yerko Escalona", email = "35448591+yerkoescalona@users.noreply.github.com" }]
-requires-python = ">=3.12,<3.13"
+requires-python = ">=3.13,<3.14"
 license = { text = "CC BY-NC-SA 4.0" }
 readme = "README.md"
 dependencies = [
@@ -12,23 +12,17 @@ dependencies = [
     "jupyter==1.1.1",
     "matplotlib==3.10.0",
     "mdanalysis>=2.10.0",
-    # Declared but never imported by any notebook (confirmed via grep across
-    # ex00-ex04, 2026-08-08) and the only dependency here with no pip wheel
-    # (sdist only, per PLAN-environment.md Task 2) -- kept, not removed, pending
-    # that file's own open "source of truth" decision. Pinned to match
-    # environment.yml (3.1.2), not this file's previous stale 4.0.
-    "nglview==3.1.2",
-    "numpy==2.0.2",
+    "numpy==2.1.3",
     "openmm==8.2.0",
-    "pandas==2.2.2",
+    "pandas==2.2.3",
     "py3dmol==2.4.0",
     "pypdb==2.4",
-    "rdkit==2024.3.5",
-    # environment.yml also pins 1.16.1; ex01's own Colab install cell pins
-    # 1.16.2 instead (PLAN-environment.md Task 2, still open) -- not resolved
-    # here, this file just stays consistent with environment.yml.
-    "scipy==1.16.1",
-    "tqdm==4.66.6",
+    "rdkit==2026.3.5",
+    # Matches Colab exactly (2026-08-29). This previously disagreed three ways
+    # -- 1.16.1 here, 1.16.2 in ex01's install cell, 1.16.3 on Colab -- which is
+    # the drift PLAN-environment.md Task 2 tracked by hand.
+    "scipy==1.16.3",
+    "tqdm==4.67.3",
     "biopython>=1.84",
     "tensorflow>=2.20.0",
     "jax>=0.5.3",
@@ -39,15 +33,13 @@ dependencies = [
     "ml-collections>=0.1.1",
     "tabulate>=0.9.0",
     "six>=1.16.0",
-    # Used by ex00/ex01/ex03 and pip-installed inside ex01's notebook
-    # (`!pip install plotly==5.24.1`), but absent from environment.yml -- a
-    # real, live-confirmed gap (PLAN-environment.md Task 2), not resolved
-    # here either. Version matches the notebook's own install cell.
+    # Used by ex00/ex01/ex03. Matches both the notebooks' install cells and
+    # Colab's own version (5.24.1), so installing it is a no-op on Colab.
     "plotly==5.24.1",
     # Not imported or pip-installed anywhere (confirmed via grep across
     # ex00-ex04, 2026-08-08; ex03 only mentions it in a markdown cell as a
-    # "you could also use" pointer). Kept, not removed, same "leave and note"
-    # treatment as nglview above rather than a unilateral removal.
+    # "you could also use" pointer). Kept for now -- unlike nglview it does have
+    # a cp313 wheel, so it costs nothing on the current runtime.
     "mdtraj>=1.11.0",
 ]
 

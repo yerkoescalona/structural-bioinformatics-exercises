@@ -1,25 +1,41 @@
+# Local conda reproduction of the Colab runtime.
+#
+# Versions match a LIVE Google Colab session, verified 2026-08-29:
+# Python 3.13.15, numpy 2.1.3, scipy 1.16.3, pandas 2.2.3, tqdm 4.67.3, jax 0.11.1.
+#
+# Ground truth is a live session (`!python --version`, `!pip freeze`). Two other
+# sources exist and BOTH can mislead:
+#   - googlecolab/backend-info tracks production closely and matched the live
+#     session here, but is Google's submitted state, not a guarantee.
+#   - the public runtime IMAGE (us-docker.pkg.dev/colab-images/public/runtime)
+#     LAGS: on 2026-08-29 its newest tag was 11 days old and still on Python
+#     3.12.13 / numpy 2.0.2. Do not pin against the image.
+#   - the FAQ's "past runtime versions" are PINNABLE OLD runtimes, not the default.
+#
+# NOTE on version spelling: conda-forge zero-pads rdkit's month (2026.03.5) while
+# PyPI does not (2026.3.5). pyproject.toml/requirements.txt use the PyPI form.
 name: structbioinfo
 channels:
-  - defaults
   - conda-forge
   - bioconda
+  - defaults
 dependencies:
-  - python=3.12
+  - python=3.13
 # conda and pip packages
   - biopandas=0.4.1
   - ipykernel>=6.29.5
   - jupyter=1.1.1
   - matplotlib=3.10.0
   - mdanalysis>=2.10.0
-  - nglview=3.1.2
-  - numpy=2.0.2
+  - numpy=2.1.3
   - openmm=8.2.0
-  - pandas=2.2.2
+  - pandas=2.2.3
+  - plotly=5.24.1
   - py3dmol=2.4.0
   - pypdb=2.4
-  - rdkit=2024.3.5
-  - scipy=1.16.1
-  - tqdm=4.66.6
+  - rdkit=2026.03.5
+  - scipy=1.16.3
+  - tqdm=4.67.3
   - biopython>=1.84
 # conda only packages
   - pdbfixer
@@ -29,7 +45,7 @@ dependencies:
   - pip
   - pip:
     - tensorflow>=2.20.0
-    - jax>=0.5.3
+    - jax>=0.11.1
     - dm-tree>=0.1.8
     - dm-haiku>=0.0.13
     - jmp>=0.0.4
