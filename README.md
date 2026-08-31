@@ -10,18 +10,21 @@ After some research, Google Colab is the best option.
 
 ### Google Colab
 
-Google colab is a free service that allows you to run jupyter notebooks in the cloud.
+Google Colab is a free service that lets you run Jupyter notebooks in the cloud.
+
+**No exercise requires a GPU.** A standard CPU runtime is enough throughout — you do not
+need to spend your GPU allocation on this course.
 
 | Link                                                                                                                               | Description                          |
 |------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex00/scientific_python_crash_course.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 00: Scientific Python Crash Course for Structural Bioinformatics |
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex01/ex01_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 01 — Guide: Exploring and Analyzing Protein Structures in the PDB Database (worked walkthrough on 1FSZ; read this first) |
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex01/ex01_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 01 — Workbook: rebuild the analysis on your own protein (graded) |
-| <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex02/ex02_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 02 — Guide: AlphaFold prediction and confidence (worked example on p53/3D08; read this first. No GPU needed) |
-| <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex02/ex02_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 02 — Workbook: analyse your own protein (graded; no GPU needed) |
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex02/ex02_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 02 — Guide: AlphaFold prediction and confidence (worked example on p53/3D08; read this first) |
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex02/ex02_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 02 — Workbook: analyse your own protein (graded) |
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex03/ex03_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 03 — Guide: molecular dynamics with OpenMM (worked example on 2JAC, solvated; read this first) |
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex03/ex03_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 03 — Workbook: simulate your own protein (graded) |
-| <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex04/ex04_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 04 — Guide: cheminformatics and docking (worked: RDKit debugging + 2IEN; read this first) |
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex04/ex04_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 04 — Guide: cheminformatics and docking (finding the ligand, then docking it into 2IEN; read this first) |
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex04/ex04_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 04 — Workbook: dock your own protein (graded) |
 
 
