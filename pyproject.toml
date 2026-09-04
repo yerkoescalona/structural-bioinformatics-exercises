@@ -2,7 +2,7 @@
 name = "structural-bioinformatics"
 version = "0.1.0"
 description = "Teaching materials for the course: Structural Bioinformatics"
-authors = ["Yerko Escalona <35448591+yerkoescalona@users.noreply.github.com>"]
+authors = ["Yerko Escalona <r207499@fhwn.ac.at>"]
 readme = "README.md"
 license = "CC BY-NC-SA 4.0"
 package-mode = false
