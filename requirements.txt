@@ -14,7 +14,8 @@ jax>=0.5.3
 # Bioinformatics packages
 biopandas==0.4.1
 MDAnalysis>=2.10.0
-biopython>=1.84
+biopython>=1.85
+pyfamsa>=0.7.0
 rdkit==2026.3.5
 pypdb==2.4
 

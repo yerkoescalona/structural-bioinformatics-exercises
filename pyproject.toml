@@ -23,7 +23,8 @@ dependencies = [
     # the drift PLAN-environment.md Task 2 tracked by hand.
     "scipy==1.16.3",
     "tqdm==4.67.3",
-    "biopython>=1.84",
+    "biopython>=1.85",
+    "pyfamsa>=0.7.0",
     "tensorflow>=2.20.0",
     "jax>=0.5.3",
     "dm-tree>=0.1.8",
