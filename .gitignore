@@ -218,3 +218,7 @@ ex04/2IEN_protein.pdb
 ex04/2IEN_ligand.pdb
 ex04/_dock_worker.py
 ex04/pose_*.pdb
+# These two appear only after a docking run actually succeeds, which is why they
+# were missing from the list above.
+ex04/2IEN_dock_result.json
+ex04/2IEN_docked_complex.pdb
