@@ -27,9 +27,10 @@ not need your own protein to follow one.
 
 ### Your project protein
 
-Your group **chooses** one protein for the capstone project, and **the ligand comes with
-it**. That pairing is the spine of the course: you record it on the Character Sheet at the
-end of ex01, predict its structure in ex02, simulate it in ex03, and dock it in ex04.
+Your group **chooses** one protein, and **the ligand comes with it**. That pairing carries
+through **all four workbooks**, each covering a different area: exploring the structure
+(ex01), predicting it with AlphaFold (ex02), simulating it (ex03) and docking its ligand
+(ex04). It is also the protein of your final project.
 
 Browse the candidates and choose:
 
@@ -39,15 +40,7 @@ Browse the candidates and choose:
 
 **The protein is yours to pick. The ligand is not.** Each candidate is listed with the one
 ligand that has already been run end to end with that protein: molecular dynamics, docking,
-and a simulation of the two together. Most PDB entries also contain buffer components, ions
-and cryoprotectants that look exactly like a substrate in a viewer. Pick one of those
-instead and the later exercises will fail, or run and hand you a number that means nothing.
-ex01 teaches you to tell the difference yourself, on your own structure.
-
-Nothing in that notebook needs to be run. Each entry has a picture, a short description, its
-ligand code, and links to RCSB, UniProt and AlphaFold. Everything else about your structure,
-the method it was solved by, its resolution, how many residues it has, how confident
-AlphaFold is about it, you work out yourself. That is the exercise.
+and a simulation of the two together.
 
 ### The workbooks: what you hand in
 
