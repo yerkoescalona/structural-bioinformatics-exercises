@@ -20,13 +20,13 @@ need to spend your GPU allocation on this course.
 Each guide is a worked walkthrough on a fixed example. Nothing is graded here, and you do
 not need your own protein to follow one.
 
-| Day | Link | What it covers |
-|-----|------|----------------|
-| before | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex00/scientific_python_crash_course.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Scientific Python crash course, the prerequisite |
-| 1 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex01/ex01_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exploring structures in the PDB (worked on 1FSZ) |
-| 2 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex02/ex02_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | AlphaFold prediction and confidence (worked on p53 and 3D08) |
-| 3 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex03/ex03_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Molecular dynamics with OpenMM (worked on solvated 2JAC) |
-| 4 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex04/ex04_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Cheminformatics and docking (worked on 2IEN with darunavir) |
+| Link | What it covers |
+|------|----------------|
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex00/scientific_python_crash_course.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex00** Scientific Python crash course |
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex01/ex01_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex01** Exploring structures in the PDB, worked on 1FSZ |
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex02/ex02_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex02** AlphaFold prediction and confidence, worked on p53 and 3D08 |
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex03/ex03_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex03** Molecular dynamics with OpenMM, worked on solvated 2JAC |
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex04/ex04_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex04** Cheminformatics and docking, worked on 2IEN with darunavir |
 
 ### Your project protein
 
@@ -58,12 +58,12 @@ teaches you to make that distinction yourself, on your own structure.
 Each workbook repeats its guide's analysis on **your own protein**, and these are the
 graded artefacts. Do the matching guide first.
 
-| Day | Link | What you produce |
-|-----|------|------------------|
-| 1 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex01/ex01_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Your protein's Character Sheet and a first look at its structure |
-| 2 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex02/ex02_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | A predicted structure for your protein, read against its confidence |
-| 3 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex03/ex03_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | A simulation of your protein and its ligand |
-| 4 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex04/ex04_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Your ligand docked back into your protein |
+| Link | What you produce |
+|------|------------------|
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex01/ex01_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex01** Your protein's Character Sheet and a first look at its structure |
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex02/ex02_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex02** A predicted structure for your protein, read against its confidence |
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex03/ex03_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex03** A simulation of your protein and its ligand |
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex04/ex04_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex04** Your ligand docked back into your protein |
 
 ### Conda
 
