@@ -1,6 +1,6 @@
 ![logo](imgs/logo.png)
 
-# Structural Bioinformatics (W2025)
+# Structural Bioinformatics (W2026)
 
 Teaching materials for the course "Structural Bioinformatics" at [FHWN](https://tulln.fhwn.ac.at/studiengang/bio-data-science).
 
