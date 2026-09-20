@@ -22,18 +22,25 @@ exclude = [
 # Rule selection - only enable specific rule categories
 select = [
     "E4",  # Import related errors
-    "E7",  # Indentation errors  
+    "E7",  # Indentation errors
     "E9",  # Hanging indentation
     "F",   # Pyflakes
     "D",   # Docstring checks
+    "ANN", # Type annotations: every helper says what goes in and what comes out
 ]
 
 # Allow unused variables when underscore-prefixed
 dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 
 [lint.per-file-ignores]
-# Allow redefinition in Jupyter notebooks
-"**/*.ipynb" = ["F811"]
+# A notebook is not a module. Redefinition across cells is normal, and the install cell
+# has to run before anything can be imported, so imports are never at the top.
+"**/*.ipynb" = ["F811", "E402"]
+
+# A workbook copies the guide's install and imports cells verbatim and is then
+# deliberately near-empty: the student writes the code that uses them. Every one of those
+# imports is therefore "unused" until they do. Do NOT let --fix strip them.
+"**/*_workbook.ipynb" = ["F811", "E402", "F401"]
 
 [lint.pydocstyle]
 # Use Google docstring convention
