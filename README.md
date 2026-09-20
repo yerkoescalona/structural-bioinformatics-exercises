@@ -27,10 +27,9 @@ not need your own protein to follow one.
 
 ### Your project protein
 
-Your group works on one protein for the capstone project, and it comes **paired with the
-ligand to work with**. That pairing runs through the whole course: you record it on the
-Character Sheet at the end of Exercise 01, predict its structure in Exercise 02, simulate
-it in Exercise 03, and dock it in Exercise 04.
+Your group **chooses** one protein for the capstone project, and **the ligand comes with
+it**. That pairing is the spine of the course: you record it on the Character Sheet at the
+end of ex01, predict its structure in ex02, simulate it in ex03, and dock it in ex04.
 
 Browse the candidates and choose:
 
@@ -38,17 +37,17 @@ Browse the candidates and choose:
 |------|-------------|
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/candidate_proteins.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Candidate proteins: browse them, then pick the one your group will carry through the whole course |
 
-Nothing in that notebook needs to be run. Each entry has a picture, a short description,
-its ligand code, and links to RCSB, UniProt and AlphaFold. Everything else about your
-structure, the method it was solved by, its resolution, how many residues it has, how
-confident AlphaFold is about it, you work out yourself. That is the exercise.
+**The protein is yours to pick. The ligand is not.** Each candidate is listed with the one
+ligand that has already been run end to end with that protein: molecular dynamics, docking,
+and a simulation of the two together. Most PDB entries also contain buffer components, ions
+and cryoprotectants that look exactly like a substrate in a viewer. Pick one of those
+instead and the later exercises will fail, or run and hand you a number that means nothing.
+ex01 teaches you to tell the difference yourself, on your own structure.
 
-The protein and ligand pairing matters more than it might look. A great many PDB entries
-contain small molecules that are **experimental artifacts** rather than biology: buffer
-components, cryoprotectants, crystallisation additives. They appear in the file exactly the
-same way a real substrate does. Every pairing in the list has been checked, so the ligand
-named there is one with a genuine biological relationship to the protein. Exercise 01
-teaches you to make that distinction yourself, on your own structure.
+Nothing in that notebook needs to be run. Each entry has a picture, a short description, its
+ligand code, and links to RCSB, UniProt and AlphaFold. Everything else about your structure,
+the method it was solved by, its resolution, how many residues it has, how confident
+AlphaFold is about it, you work out yourself. That is the exercise.
 
 ### The workbooks: what you hand in
 
