@@ -1634,6 +1634,19 @@ wheels = [
 ]
 
 [[package]]
+name = "pandas-stubs"
+version = "2.2.3.250527"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "types-pytz" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5f/0d/5fe7f7f3596eb1c2526fea151e9470f86b379183d8b9debe44b2098651ca/pandas_stubs-2.2.3.250527.tar.gz", hash = "sha256:e2d694c4e72106055295ad143664e5c99e5815b07190d1ff85b73b13ff019e63", size = 106312, upload-time = "2025-05-27T15:24:29.716Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ec/f8/46141ba8c9d7064dc5008bfb4a6ae5bd3c30e4c61c28b5c5ed485bf358ba/pandas_stubs-2.2.3.250527-py3-none-any.whl", hash = "sha256:cd0a49a95b8c5f944e605be711042a4dd8550e2c559b43d70ba2c4b524b66163", size = 159683, upload-time = "2025-05-27T15:24:28.4Z" },
+]
+
+[[package]]
 name = "pandocfilters"
 version = "1.5.1"
 source = { registry = "https://pypi.org/simple" }
@@ -2276,6 +2289,7 @@ dependencies = [
 dev = [
     { name = "commitizen" },
     { name = "nbstripout" },
+    { name = "pandas-stubs" },
     { name = "pre-commit" },
     { name = "pytest" },
     { name = "ruff" },
@@ -2316,6 +2330,7 @@ requires-dist = [
 dev = [
     { name = "commitizen", specifier = ">=3.29.0" },
     { name = "nbstripout", specifier = ">=0.8.1" },
+    { name = "pandas-stubs", specifier = "~=2.2.3" },
     { name = "pre-commit", specifier = ">=4.3.0" },
     { name = "pytest", specifier = ">=8.4.2" },
     { name = "ruff", specifier = ">=0.14.1" },
@@ -2461,6 +2476,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/2c/2e/a7fbfe268c8a3b32546930c0297c101d65a4a14c304ad5790a9f478f0e4e/traitlets-5.16.1.tar.gz", hash = "sha256:ed900c2b631aa3a112811139fa97b8d2c3bad5e989656bba4b7e52c7852c18c1", size = 166137, upload-time = "2026-08-03T08:32:36.848Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ad/66/0d785f0bc5e4315a96c989bb476d0fc07ea4f85132550c7b156ca2035d52/traitlets-5.16.1-py3-none-any.whl", hash = "sha256:f775618166caa0396c8e337099240f2bd3e5e917d203b2e6fbe21a58d3cb1f6b", size = 86211, upload-time = "2026-08-03T08:32:34.48Z" },
+]
+
+[[package]]
+name = "types-pytz"
+version = "2026.3.1.20260727"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/b1/cf/eae96172a036b942e0ad0ec49512108b4ef4b97cd6c2aed5677540a597e7/types_pytz-2026.3.1.20260727.tar.gz", hash = "sha256:4364075b6867dd15b210bb8c1d29727d609917129b45600defe1d4b3eda5ecb9", size = 10914, upload-time = "2026-07-27T05:36:32.389Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/9c/24/a654176875944981c75516857cd8750600eeb9ff7fc07a2b82573619a57c/types_pytz-2026.3.1.20260727-py3-none-any.whl", hash = "sha256:42ac44e83645bfceb46597342c8fb8ec028a1407e2feae9c5c539986eab6b57a", size = 10132, upload-time = "2026-07-27T05:36:31.52Z" },
 ]
 
 [[package]]

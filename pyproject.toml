@@ -52,6 +52,7 @@ dev = [
     "pre-commit>=4.3.0",
     "nbstripout>=0.8.1",
     "commitizen>=3.29.0",
+    "pandas-stubs~=2.2.3",
 ]
 
 [tool.uv]
