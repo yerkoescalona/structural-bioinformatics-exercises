@@ -37,9 +37,9 @@ dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 # has to run before anything can be imported, so imports are never at the top.
 "**/*.ipynb" = ["F811", "E402"]
 
-# A workbook copies the guide's install and imports cells verbatim and is then
-# deliberately near-empty: the student writes the code that uses them. Every one of those
-# imports is therefore "unused" until they do. Do NOT let --fix strip them.
+# Workbooks carry instructions only: students paste the guide's install and imports cells
+# into their own copy. If such a cell ever reaches a workbook, its imports read as unused
+# until the student's code uses them. Do NOT let --fix strip them.
 "**/*_workbook.ipynb" = ["F811", "E402", "F401"]
 
 [lint.pydocstyle]
