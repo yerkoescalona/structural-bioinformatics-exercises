@@ -12,6 +12,9 @@
 #     3.12.13 / numpy 2.0.2. Do not pin against the image.
 #   - the FAQ's "past runtime versions" are PINNABLE OLD runtimes, not the default.
 #
+# The OpenFF stack is deliberately NOT in this environment. ex03 builds its ligand
+# parameters in a second, pinned environment; the create command is in ex03_guide.ipynb.
+#
 # NOTE on version spelling: conda-forge zero-pads rdkit's month (2026.03.5) while
 # PyPI does not (2026.3.5). pyproject.toml/requirements.txt use the PyPI form.
 name: structbioinfo
