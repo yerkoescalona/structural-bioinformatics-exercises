@@ -24,6 +24,7 @@ not need your own protein to follow one.
 |------|----------------|
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex00/scientific_python_crash_course.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex00** Scientific Python crash course |
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex01/ex01_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex01** Exploring structures in the PDB, worked on 1FSZ |
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex02/ex02_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex02** AlphaFold prediction and confidence, worked on p53 and 3D08 |
 
 ### Your project protein
 
@@ -50,6 +51,7 @@ graded artefacts. Do the matching guide first.
 | Link | What you produce |
 |------|------------------|
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex01/ex01_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex01** Your protein's Character Sheet and a first look at its structure |
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex02/ex02_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex02** A predicted structure for your protein, read against its confidence |
 
 ### Conda
 
