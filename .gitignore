@@ -229,3 +229,7 @@ ex04/pose_*.pdb
 # were missing from the list above.
 ex04/2IEN_dock_result.json
 ex04/2IEN_docked_complex.pdb
+# Written by the guide's orientation-B and crystal-pose cells.
+ex04/2IEN_protein_B.pdb
+ex04/2IEN_ligand_B.pdb
+ex04/2IEN_crystal_complex.pdb
