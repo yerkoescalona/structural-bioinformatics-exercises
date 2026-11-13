@@ -26,6 +26,7 @@ not need your own protein to follow one.
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex01/ex01_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex01** Exploring structures in the PDB, worked on 1FSZ |
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex02/ex02_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex02** AlphaFold prediction and confidence, worked on p53 and 3D08 |
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex03/ex03_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex03** Molecular dynamics with OpenMM, worked on solvated 2JAC |
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex04/ex04_guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex04** Cheminformatics and docking, worked on 2IEN with darunavir |
 
 ### Your project protein
 
@@ -54,6 +55,7 @@ graded artefacts. Do the matching guide first.
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex01/ex01_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex01** Your protein's Character Sheet and a first look at its structure |
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex02/ex02_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex02** A predicted structure for your protein, read against its confidence |
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex03/ex03_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex03** A simulation of your protein and its ligand |
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural-bioinformatics-exercises/blob/main/ex04/ex04_workbook.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **ex04** Your ligand docked back into your protein |
 
 ### Conda
 
